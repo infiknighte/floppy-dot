@@ -6,9 +6,9 @@ Created for the **Segfault Club**, **Gohar's Guide** Discord Server's _Game Jam_
 
 ### Requirements
 
-- \***raylib** (\*if using [Make](#make), v5.5 or newer recommended)
+- \***raylib** (\*if using [Make](#make), >=v5.5 recommended)
 - **C compiler** (GCC / Clang)
-- **CMake** or **Make**
+- **CMake** (>=v3.11) or **Make**
 
 ### General Instructions
 
