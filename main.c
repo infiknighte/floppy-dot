@@ -82,11 +82,7 @@ void init_highscore(int *highscore) {
 
     int size = 0;
     unsigned char *data = LoadFileData(RESOURCES "/highscore", &size);
-    *highscore
-        = ((int)data[0] << 0)
-        | ((int)data[1] << 8)
-        | ((int)data[2] << 16)
-        | ((int)data[3] << 24);
+    *highscore = *(int *)data;
     UnloadFileData(data);
 }
 
