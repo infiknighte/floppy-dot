@@ -6,7 +6,7 @@ Created for the **Segfault Club**, **Gohar's Guide** Discord Server's _Game Jam_
 
 ### Requirements
 
-- \***raylib** (v5.5 or newer recommended. if using Make)
+- \***raylib** (\*if using [Make](#make), v5.5 or newer recommended)
 - **C compiler** (GCC / Clang)
 - **CMake** or **Make**
 
