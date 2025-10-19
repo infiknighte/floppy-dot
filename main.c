@@ -115,7 +115,7 @@ static inline bool signal_jump(void) {
 
 void update_player(struct player *player, float gravity, float window_y, bool *is_game_over, float dt) {
     
-    if (player->position.y + player->radius < 0 || player->position.y - player->radius > window_y) {
+    if (player->position.y + player->radius < -20 || player->position.y - player->radius > window_y + 50) {
         *is_game_over = true;
     }
 
